@@ -1,0 +1,9 @@
+generar-documentos:
+    build: .
+    container_name: generar-documentos
+    volumes:
+      - ./code:/srv/www/code
+    ports:
+      - "80:80"
+    # command: uwsgi --ini /srv/www/code/uwsgi.ini
+    command: uwsgi --ini generator/uwsgi.ini

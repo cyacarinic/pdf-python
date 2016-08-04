@@ -1,0 +1,52 @@
+[
+    {
+        "titulo_documento": "DOC000001",
+        "accion": "create",
+        "tipo": "pdf",
+        "autor_documento": "SYSTEM",
+        "fecha_creacion": "2015-07-02 23:35:04.691320",
+        "numero_paginas": 1,
+        "documento": {
+            "pagina_1": "contenido general"
+        }
+    },
+    {
+        "titulo_documento": "DOC000001",
+        "accion": "create",
+        "tipo": "pdf",
+        "autor_documento": "SYSTEM",
+        "fecha_creacion": "2015-07-02 23:35:04.691350",
+        "numero_paginas": 2,
+        "documento": {
+            "pagina_2": "pagina 2",
+            "pagina_1": "pagina 1"
+        }
+    },
+    {
+        "titulo_documento": "DOC000001",
+        "accion": "create",
+        "tipo": "pdf",
+        "autor_documento": "SYSTEM",
+        "fecha_creacion": "2015-07-02 23:35:04.691363",
+        "numero_paginas": 5,
+        "documento": {
+            "pagina_3": "[3]. LA SAGA DE GARLICK JR.",
+            "pagina_2": "[2]. LA SAGA DE FREEZER",
+            "pagina_1": "[1]. LA SAGA DE LOS SAYJAJINS",
+            "pagina_5": "[5]. LA SAGA DE MAJIN BU",
+            "pagina_4": "[4]. LA SAGA DE CELL"
+        }
+    },
+    {
+        "titulo_documento": "documento con todos los campos",
+        "accion": "create",
+        "tipo": "pdf",
+        "autor_documento": "Claudio Yacarini",
+        "fecha_creacion": "hoy",
+        "numero_paginas": 2,
+        "documento": {
+            "pagina_2": "pagina 2",
+            "pagina_1": "pagina 1"
+        }
+    }
+]

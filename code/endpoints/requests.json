@@ -1,0 +1,77 @@
+REQUEST PARA CREAR
+[
+  {
+    * "type":"pdf",
+    * "method":"url" || "html" || "text" || "template",
+    * "content":["...."],
+    "action":"create",
+    "date":"",
+    "title":"...",
+    "autor":"...",
+  }
+]
+
+* = requeridos
+
+[{
+  "type":"pdf",
+  "method":"text",
+  "content":[ "Sagas de Dragon Ball.",
+          "[1]. LA SAGA DE LOS SAYJAJINS<div style='page-break-after: always;'></div>[2]. LA SAGA DE FREEZER<div style='page-break-after: always;'></div>[3]. LA SAGA DE GARLICK JR.<div style='page-break-after: always;'></div>[4]. LA SAGA DE CELL<div style='page-break-after: always;'></div>[5]. LA SAGA DE MAJIN BU<div style='page-break-after: always;'></div>"
+    ]
+},
+{
+  "type":"pdf",
+  "method":"url",
+  "content":["http://google.com","http://divstyle.info"]
+},
+{
+  "type":"pdf",
+  "method":"html",
+  "content":["Templates/basic.html"]
+},
+{
+  "type":"pdf",
+  "method":"template",
+  "content":[
+      {
+          "nombre":"Claudio",
+          "apellido":"Yacarini",
+          "texto":"Hola mundo, template de Prueba"
+      },
+      {
+          "nombre":"Oscar",
+          "apellido":"Sanchez",
+          "texto":"Hola Oscar, otra prueba"
+      },
+      {
+          "nombre":"Vegita",
+          "apellido":"Gokú",
+          "texto":"Dragon Ball Super, la nueva Saga"
+      }
+  ],
+  "action":"create",
+  "date":"hoy",
+  "title":"documento con todos los campos",
+  "autor":"Claudio Yacarini"
+}]
+
+======================================================================
+======================================================================
+
+REQUEST PARA LISTAR (GET)
+None
+
+======================================================================
+======================================================================
+
+REQUEST PARA LEER
+[
+  {
+    * "url":"....",
+    * "type":"pdf",
+    * "action":"read",
+    "date":"...."
+
+  }
+]
